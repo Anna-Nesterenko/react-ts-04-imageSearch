@@ -31,7 +31,7 @@ export const SearchBar: FC<IProps> = ({ onSubmit }) => {
     <WrapperHeader>
       <form onSubmit={handleSubmit}>
         <BtnSearch type="submit">
-          <IconFI></IconFI>
+          <IconFI />
         </BtnSearch>
         <Field
           name="searchName"
